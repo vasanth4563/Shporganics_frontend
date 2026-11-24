@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="95" fill="#FFFFFF" stroke="#2D6A4F" stroke-width="4"/>
+  <path d="M100 25 C65 60 65 110 100 140 C135 110 135 60 100 25 Z" fill="#2EA043"/>
+  <path d="M100 45 C80 75 80 115 100 135 C120 115 120 75 100 45 Z" fill="#52B788"/>
+  <path d="M100 30 L100 135" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <text x="100" y="165" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="22" fill="#111827" text-anchor="middle" letter-spacing="2">SHP</text>
+  <text x="100" y="182" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#2D6A4F" text-anchor="middle" letter-spacing="4">ORGANICS</text>
+</svg>
