@@ -9,13 +9,14 @@ import { brand } from '../../theme/theme';
 import { useAuth, useToast } from '../../hooks';
 import { Url } from '../../services/api';
 import type { Role } from '../../types';
+import loginHero from '@login-hero';
 
 function AuthShell({ title, subtitle, children, maxWidth = 440 }: { title: string; subtitle: string; children: ReactNode; maxWidth?: number }) {
   return (
     <Grid container sx={{ height: '100vh', maxHeight: '100vh', overflow: { xs: 'auto', md: 'hidden' }, bgcolor: '#FCFAF5' }}>
       <Grid item md={6} sx={{ display: { xs: 'none', md: 'block' }, position: 'relative', p: { md: 2, lg: 2.5 }, height: '100%' }}>
         <Box sx={{ position: 'relative', height: '100%', borderRadius: 6, overflow: 'hidden' }}>
-          <SmartImage src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80" alt="Organic produce" sx={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }} />
+          <SmartImage src={loginHero} alt="Handcrafted Organic Sweets" sx={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectPosition: 'center 40%' }} />
           <Box sx={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(25,77,53,.15), rgba(16,48,33,.88))' }} />
           <Box sx={{ position: 'absolute', left: 40, right: 40, bottom: 40, color: '#fff' }}>
             <Typography variant="h2" sx={{ fontSize: { md: 36, lg: 44 }, lineHeight: 1.1 }}>Organic goodness,<br /><i>delivered.</i></Typography>
